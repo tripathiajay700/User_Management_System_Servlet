@@ -1,0 +1,73 @@
+<style>
+body{
+	padding:35px;
+    background-image: url("Reg.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+a{
+color:black;
+margin: 20px;
+text-decoration:none;
+font-size: large;
+}
+table{
+text-align: left;
+}
+.c1:hover{
+color:deeppink;
+}
+</style>
+<body>
+<center>
+<br><br><br><p></p>
+<a class="c1" href="index.html">Home</a>&nbsp;&nbsp;
+<a class="c1" href="reg.html">Register</a>&nbsp;&nbsp;
+<a class="c1" href="login.html">Login</a>&nbsp;&nbsp;
+<a class="c1" href="delete.html">Delete</a>&nbsp;&nbsp;
+<a class="c1" href="update.html">Update</a>&nbsp;&nbsp;
+<a class="c1" href="view.html">View User Details</a>&nbsp;&nbsp;
+
+<form action="RegisterCode" method="post">
+
+<table cellpadding="10px">
+<tr><th></th></tr>
+
+<tr><th>Name:</th>
+<td><input type="text" name="uname"></td></tr>
+
+<tr><th>Password:</th>
+<td><input type="password" name="psw"></td></tr>
+
+<tr><th>Email:</th>
+<td><input type="email" name="mail"></td></tr>
+
+<tr><th>Gender:</th>
+<td><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="trans">Transgender</td></tr>
+
+<tr><th>State:</th>
+<td><select name="state">
+<option value="">---Select---</option>
+<option value="mp">Madhya Pradesh</option>
+<option value="up">Uttar Pradesh</option>
+<option value="ap">Andhra Pradesh</option>
+<option value="br">Bihar</option>
+<option value="hp">Himanchal Pradesh</option>
+<option value="tl">Telangana</option>
+</select></td></tr>
+
+<tr><th>Mobile No:</th>
+<td><input type="text" name="mno"><br></td></tr>
+
+<tr><td></td></tr>
+
+<tr><th><input type="submit" value="Register">&emsp;&emsp;&emsp;&emsp;</th>
+<th><input type="reset" value="Clear" id="id2"></th></tr>
+
+</table>
+</form>
+</center>
+</body>
